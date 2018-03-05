@@ -37,11 +37,8 @@ Card.prototype = {
 	    		self.element.remove();
 	      	}
 	    });
-	}
-}
+	},
 
-
-Card.prototype = {
 	renameCard: function() {
 		var self = this;
 		var newCardName = prompt("Enter new name of the card");
